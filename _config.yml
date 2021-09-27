@@ -273,13 +273,6 @@ compress_html:
   ignore:
     envs: development
 
-urls:
-    - text: About Me
-      url: /about
-	
-    - post : Post 
-      url : /post
-
 # Defaults
 defaults:
   # _posts
