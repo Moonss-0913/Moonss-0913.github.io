@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name             : "jaeyun Moon"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/propicture.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Deeplearning 등 공부하는 주니어 개발자."
   location         : "대전 유성구"
   email            :
