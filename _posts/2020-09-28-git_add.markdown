@@ -41,9 +41,9 @@ description: git 초기 설정 방법에 대한 글
 
 ----
 
-# **2\. 실습** 
+# 2\. 실습
 
-## **2-1 ) git add 와 Staging area**
+## 2-1 ) git add 와 Staging area
 
 이전 포스트에서 만든 git\_file 폴더에 a.txt, b.txt, c.txt를 만들어줌 
 
@@ -68,6 +68,7 @@ $ git status
 위 코드들을 사용해서 Staging area로 옮길 수 있다. 
 
 ![](/assets/images/post2/img3.png)
+
 ![출처 : https://www.youtube.com/watch?v=Z9dvM7qgN9s&t=356s](/assets/images/post2/img4.png)
 
 Staging area로 파일을 올리고 수정을 하면
@@ -95,11 +96,14 @@ $ git rm --cached *.txt # 모든 txt파일이 다시 working dir로 내려오게
 $ git status
 ```
 ![](/assets/images/post2/img8.png)
+
 ![](/assets/images/post2/img9.png)
 
-## **2-2 ) git add \* 와 git add . 의 차이** 
+----
 
-### **git add \* 전체 파일 Staging area 올리기**
+## 2-2 ) git add \* 와 git add . 의 차이 
+
+### git add \* 전체 파일 Staging area 올리기
 
 ```
 $ git add * #전체 파일 add
@@ -124,7 +128,7 @@ $ git status
 
 ![](/assets/images/post2/img12.png)
 
-## **2-3 ) gitignore** 
+## 2-3 ) gitignore
 
 **git에 tracking 하고 싶지 않은 파일들 or github에 공개하고 싶지 않은 파일이 있을 때 사용** 
 
