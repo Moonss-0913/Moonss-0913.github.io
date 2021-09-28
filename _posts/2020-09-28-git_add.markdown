@@ -56,8 +56,8 @@ $ git status
 
 ![](/assets/images/post2/img2.png)
 
-' master brach에서 작업 하고 있다.
-commits 은 아직 없고 untracked files 목록을 보여주고 아직 commit 할게 없지만 git add로 track할 수  있다. '
+> master brach에서 작업 하고 있다.
+> commits 은 아직 없고 untracked files 목록을 보여주고 아직 commit 할게 없지만 git add로 track할 수  있다. 
 
 ```
 $ git add a.txt #a.txt 만 add 
@@ -99,7 +99,7 @@ $ git status
 
 ![](/assets/images/post2/img9.png)
 
-----
+
 
 ## 2-2 ) git add \* 와 git add . 의 차이 
 
