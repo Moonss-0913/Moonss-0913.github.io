@@ -1,8 +1,10 @@
 ---
-layout: post
 title:  "Git 익숙해지기 1) Set up"
+layout: single
+author_profile: true
 date:   2020-09-27 15:40:20 +0530
 categories: git, github 
+comments: true
 ---
 ## Git 공식 사이트 
 
