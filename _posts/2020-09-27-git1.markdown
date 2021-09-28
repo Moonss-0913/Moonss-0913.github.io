@@ -82,7 +82,7 @@ $ rm -rf .git
 $ git status
 ```
 ​
-![image1](/assets/image/post1/git1.png)
+![image1](/assets/images/post1/git1.png)
 ​
 
 on brach master는 현재 작업중인 브랜치를 의미합니다. 
