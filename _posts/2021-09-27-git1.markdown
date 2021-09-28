@@ -2,7 +2,7 @@
 title:  "Git 익숙해지기 1) Set up"
 layout: single
 author_profile: true
-date:   2020-09-27 15:40:20 +0530
+date:   2021-09-27 15:40:20 +0530
 author_profile: true
 read_time: true
 comments: true
