@@ -1,11 +1,20 @@
 ---
 title:  "Git 익숙해지기 1) Set up"
-layout: post
-toc : true
-categories : git 
-tags : [git & github]
-author :
-- jaeyun Moon
+layout: single
+author_profile: true
+date:   2020-09-27 15:40:20 +0530
+author_profile: true
+read_time: true
+comments: true
+share: true
+related: true
+popular: true
+categories:
+- git
+toc: true
+toc_sticky: true
+toc_label: 목차
+description: git 초기 설정 방법에 대한 글 
 ---
 ## Git 공식 사이트 
 
@@ -13,16 +22,19 @@ author :
 
 ​
 **Git 설치** 
+​
 ```
 $ sudo apt install git-all
 ```
 ​
 **Git 버전 확인** 
+​
 ```
 $ git --version
 ```
 ​
 ### 로컬 Git에 Github 계정 정보 등록하기 
+​
 ```
 $ git config --global user.email "github-useremail"
 $ git config --global user.name "github-username"
@@ -32,6 +44,7 @@ github-useremail와 github-username 에 자신의 email주소와  username 입�
 ​
 
 **Git에 등록한 config정보 확인** 
+​
 ```
 git config -l
 ```
@@ -39,6 +52,7 @@ git config -l
 ### 내 컴퓨터에 로컬 저장소 만들기 
 ​
 **1\. 폴더 만들기** 
+​
 ```
 $ mkdir git_file #새로운 폴더 만들기 
 $ cd git_file # 폴더로 이동 
@@ -51,14 +65,19 @@ $ ls -a #.git 디렉토리와 그 안에 내용들 확인 가능
 \- 모든 Git 로컬 저장소는 .git 이라는 디렉토리를 가지고 잇다. 
 ​
 \- 기본적으로 master branch 입니다 
+​
+
 **2\. .git 디렉토리 삭제** 
+​
 ```
 $ rm -rf .git
 ```
 ​
 \- .git 디렉토리 삭제 
+​
 
 **3\. 파일 상태 확인 (git status)**
+​
 ```
 $ git status
 ```
@@ -72,6 +91,7 @@ master brach 확인 가능
 ​
 
 **3-1. 단축키로 줄여서 사용하기**
+​
 ```
 $ git config --global alias.st status # status 를 st로 단축키처럼 만들어서 사용가능 
 $ git st # status 명령어가 입력이 된다.
