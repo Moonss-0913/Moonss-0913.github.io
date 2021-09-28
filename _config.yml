@@ -1,6 +1,6 @@
 # 기본 설명 https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 
-minimal_mistakes_skin    : "contrast" #"default" # 태마 색 설정 "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise" 
+minimal_mistakes_skin    : "dirt" #"contrast" #"default" # 태마 색 설정 "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise" 
 
 # Site Settings
 locale                   : "ko-KR"
@@ -20,7 +20,7 @@ words_per_minute         : 200 # 해당 포스트 읽는데 걸리는 시간을 
 
 # 댓글 관련 부분
 comments:
-  provider               :  "default" # "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               :  "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : Moonss # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
